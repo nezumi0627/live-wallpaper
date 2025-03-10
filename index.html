@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Display</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Top Bar with Clock and Theme Toggle -->
+    <div class="top-bar">
+      <div class="clock-container">
+        <div id="time-icon" class="time-icon"></div>
+        <div class="clock-text">
+          <div id="date-display" class="date-display"></div>
+          <div id="time-display" class="time-display"></div>
+        </div>
+      </div>
+      <div class="location-container">
+        <div id="location-display" class="location-display">Locating...</div>
+      </div>
+      <button id="theme-toggle" class="theme-toggle">Toggle Theme</button>
+    </div>
+    
+    <!-- Music Player Section -->
+    <div class="music-player">
+      <div class="album-art-container">
+        <img id="artwork" src="/placeholder.svg" alt="Album Art">
+      </div>
+      
+      <div class="track-info">
+        <h1 id="track-title" class="no-track">No Track Playing</h1>
+        <h2 id="track-artist" class="no-track">Play a track to begin</h2>
+        <p id="album-info"></p>
+        <p id="additional-info"></p>
+        
+        <!-- Audio Visualizer Container -->
+        <div class="visualizer-container">
+          <canvas id="audio-visualizer" class="audio-visualizer"></canvas>
+        </div>
+      </div>
+    </div>
+    
+    <!-- System Information Section -->
+    <div id="system-info" class="system-info">
+      <div class="system-item">
+        <div class="system-label">CPU</div>
+        <div id="cpu-text" class="system-text"></div>
+        <div class="system-bar-container">
+          <div id="cpu-bar" class="system-bar"></div>
+        </div>
+      </div>
+      
+      <div class="system-item">
+        <div class="system-label">GPU</div>
+        <div id="gpu-text" class="system-text"></div>
+        <div class="system-bar-container">
+          <div id="gpu-bar" class="system-bar"></div>
+        </div>
+      </div>
+      
+      <div class="system-item">
+        <div class="system-label">Network</div>
+        <div id="net-text" class="system-text"></div>
+        <div class="system-bar-container">
+          <div id="net-bar" class="system-bar"></div>
+        </div>
+      </div>
+      
+      <div class="system-item">
+        <div class="system-label">RAM</div>
+        <div id="ram-text" class="system-text"></div>
+        <div class="system-bar-container">
+          <div id="ram-bar" class="system-bar"></div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Additional Information Section -->
+    <div class="additional-info-section">
+      <div class="info-column">
+        <div class="weather-container" id="weather-container">
+          <div class="system-label">Weather</div>
+          <div id="weather-display">Loading weather data...</div>
+          <div id="forecast-display" class="forecast-display"></div>
+        </div>
+        
+        <div class="battery-container" id="battery-container">
+          <div class="system-label">Battery</div>
+          <div id="battery-display">Checking battery...</div>
+        </div>
+      </div>
+      
+      <div class="info-column">
+        <div class="calendar-container">
+          <div class="system-label">Calendar</div>
+          <div id="day-of-year"></div>
+          <div id="week-of-year"></div>
+        </div>
+        
+        <div class="display-info-container">
+          <div class="system-label">Display</div>
+          <div id="display-info"></div>
+          <div id="browser-info"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <canvas id="visualizer-canvas"></canvas>
+  
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

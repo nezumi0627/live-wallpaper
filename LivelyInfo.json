@@ -1,0 +1,14 @@
+{
+  "AppVersion": "1.0.0",
+  "Title": "Nezu Live Wallpaper",
+  "Preview": "preview.jpg",
+  "Desc": "A refined live wallpaper,",
+  "Author": "nezumi0627",
+  "License": "MIT License",
+  "Contact": "https://github.com/nezumi0627/live-wallpaper",
+  "Type": 1,
+  "FileName": "index.html",
+  "Arguments": "--pause-event true --system-nowplaying --system-information --audio",
+  "Tags": [],
+  "IsAbsolutePath": false
+}

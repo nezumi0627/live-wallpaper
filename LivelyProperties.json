@@ -1,0 +1,8 @@
+{
+	"darkMode": {
+		"type": "checkbox",
+		"value": false,
+		"text": "Dark Mode",
+		"help": "Enable dark mode for the interface"
+	}
+}
