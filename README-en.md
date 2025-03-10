@@ -22,10 +22,9 @@ Thank you to the creators of Lively.
 
 ## Installation Method
 
-1. [release page](https://github.com/nezumi0627/live-wallpaper/releases) from which zip file is downloaded
-2. Extract the zip file and extract the theme.zip
-3. Drag and drop theme.zip into the Lively software to install
-4. Click on the installed item to apply it (you can also set the dark/light mode in advance in the Lively software settings, which will be inherited at startup)
+1. [release](https://github.com/nezumi0627/live-wallpaper/releases) page to download the `theme.zip` file
+2. Drag and drop the `theme.zip` file into the Lively software to install
+3. Click on the installed theme to apply it (you can also set the theme to dark or light mode in the Lively software settings before applying it, and it will retain the changes after restarting)
 
 ## Screenshot
 

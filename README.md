@@ -22,10 +22,9 @@ Livelyの制作陣の皆様に感謝の意を表します。
 
 ## インストール方法
 
-1. [releaseページ](https://github.com/nezumi0627/live-wallpaper/releases)からzipファイルをダウンロード
-2. zipファイルを解答して、theme.zipを取り出す
-3. theme.zipをLivelyソフトに直接ドラッグ&ドロップしてインストール
-4. インストールしたものをクリックして適用（この際、Livelyソフトの設定でカスタマイズからダーク/ライトモードを事前に設定することもできます（起動時に変更を引き継いだままにするため））
+1. [releaseページ](https://github.com/nezumi0627/live-wallpaper/releases)から`theme.zip`をダウンロード
+2. `theme.zip`をLivelyソフトに直接ドラッグ&ドロップしてインストール
+3. インストールしたものをクリックして適用（この際、Livelyソフトの設定でカスタマイズからダーク/ライトモードを事前に設定することもできます（起動時に変更を引き継いだままにするため））
 
 ## スクリーンショット
 
